@@ -45,6 +45,7 @@
         grid-template-columns: 440px 456px;
         grid-template-rows: 72px auto;
         grid-column-gap: 32px;
+        margin: 88px auto;
     }
 
     .place:nth-of-type(2) {
