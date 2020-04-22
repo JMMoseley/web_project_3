@@ -1,5 +1,4 @@
 /* cover__subtitle */
-
 .cover__subtitle {
     position: absolute;
     margin-top: 0;
@@ -11,25 +10,25 @@
     text-align: center;
     color: #FFFFFF;
 }
-
-@media screen and (min-width: 320px) and (max-width: 424px) {
+ 
+@media screen and (max-width: 1024px) {
     .cover__subtitle {
-        max-width: 288px;
-        margin-top: 0;
-        padding-top: 106px;
-        font-size: 14px;
+        padding-top: 341px;    
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .cover__subtitle {
         margin-top: 0;
         padding-top: 261px;
     }
 }
- 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+@media screen and (max-width: 425px) {
     .cover__subtitle {
-        padding-top: 341px;    
+        max-width: 288px;
+        margin-top: 0;
+        padding-top: 106px;
+        font-size: 14px;
     }
 }
