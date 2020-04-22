@@ -9,6 +9,12 @@
 
 @media screen and (max-width: 768px) {
     .place__website {
-        margin-bottom: 0x;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        display: none;
     }
 }
