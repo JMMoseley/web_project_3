@@ -18,19 +18,26 @@
     }
 }
 
-  @media screen and (max-width: 768px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .places {
         width: 720px;
         padding-right: 24px;
         padding-left: 24px;
+        margin: auto;
+    }
+}
+@media only screen and (min-device-width : 568px) and (max-device-width : 767px) {
+    .places {
+        padding-left: 24px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 567px) {
     .places {
         padding-right: 0;
         padding-left: 0;
         margin: 0;
     }
-    
+}
+
 }

@@ -23,7 +23,21 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (min-device-width : 625px) and (max-device-width : 768px) {
+    .cover__title {
+        padding-top: 106px;
+        font-size: 52px;
+    }
+}
+
+@media only screen and (min-device-width : 425px) and (max-device-width : 624px) {
+    .cover__title {
+        padding-top: 71px;
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 424px) {
     .cover__title {
         padding-top: 51px;
         font-size: 32px;

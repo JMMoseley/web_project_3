@@ -24,7 +24,24 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (min-device-width : 624px) and (max-device-width : 767px) {
+    .cover__subtitle { max-width: 388px;
+        margin-top: 0;
+        padding-top: 166px;
+
+    }
+}
+
+@media only screen and (min-device-width : 425px) and (max-device-width : 624px) {
+    .cover__subtitle {
+        max-width: 288px;
+        margin-top: 0;
+        padding-top: 126px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 424px) {
     .cover__subtitle {
         max-width: 288px;
         margin-top: 0;

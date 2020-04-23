@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 567px) {
     .cover__background {
         width: 100%;
     }
