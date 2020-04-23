@@ -3,7 +3,7 @@
 @import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
-@import url(./__list/_span/intro__list_accent.css);
+@import url(./__list/intro__list-accent.css);
 
 .intro {
     max-width: 690px;
