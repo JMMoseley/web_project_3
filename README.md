@@ -3,7 +3,7 @@ Project 3: From Portland to Portland
 
 This is a project is a page about traveling across the US, from Portland to Portland. 
 
-Link to project [Github](https://jmmoseley.github.io/web_project_3/)
+Link to project: [Project 3](https://jmmoseley.github.io/web_project_3/)
 
 Technologies used:
 * HTML & CSS
