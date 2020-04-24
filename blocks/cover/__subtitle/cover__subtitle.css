@@ -1,51 +1,40 @@
 /* cover__subtitle */
 .cover__subtitle {
-    position: absolute;
-    margin-top: 0;
-    padding-top: 391px;
+    width: 320px;
     margin-top: 32px;
-    max-width: 320px;
     font-size: 18px;
     line-height: 1.2;
     text-align: center;
     color: #FFFFFF;
 }
- 
-@media screen and (max-width: 1024px) {
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1279px) {
     .cover__subtitle {
-        padding-top: 341px;    
+        font-size: calc(100vw * (18/ 768));
+        width: calc(100vw * (320 / 768));;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .cover__subtitle {
-        margin-top: 0;
-        padding-top: 261px;
+        font-size: calc(100vw * (18/ 768));
+        width: calc(100vw * (320 / 768));;
     }
 }
 
-@media only screen and (min-device-width : 624px) and (max-device-width : 767px) {
-    .cover__subtitle { max-width: 388px;
-        margin-top: 0;
-        padding-top: 166px;
-
+@media only screen and (min-device-width : 450px) and (max-device-width : 767px) {
+    .cover__subtitle {
+        font-size: calc(100vw * (18/ 768));
+        width: calc(100vw * (288 / 768));;
+        margin-top: 16px;
     }
 }
 
-@media only screen and (min-device-width : 425px) and (max-device-width : 624px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
     .cover__subtitle {
-        max-width: 288px;
-        margin-top: 0;
-        padding-top: 126px;
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 424px) {
-    .cover__subtitle {
-        max-width: 288px;
-        margin-top: 0;
-        padding-top: 106px;
-        font-size: 14px;
+        width: calc(100vw * (288 / 320));
+        font-size: calc(100vw * (14 / 320));
+        line-height: 1.1;
+        margin-top: 16px;
     }
 }

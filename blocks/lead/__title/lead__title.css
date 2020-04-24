@@ -9,15 +9,29 @@
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1279px) {
     .lead__title {
-        font-size: calc(11vw);
+        margin-right: 152px;
+        margin-left: 152px;
+    }
+}
+
+@media only screen and (max-device-width : 768px) {
+    .lead__title {
         margin-right: 24px;
         margin-left: 24px;
     }
-  }
+}
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 350px) and (max-device-width : 767px) { 
+    .lead__title {
+        margin: auto;
+        font-size: calc(100vw * (96/ 767));
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 320px) { 
     .lead__title {
         margin: auto;
         font-size: 40px;

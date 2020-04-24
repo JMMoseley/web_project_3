@@ -1,45 +1,29 @@
 /* cover__title */
 .cover__title {
-    position: absolute;
-    margin-top: 0;
-    width: 656px;
     font-weight: 900;
     font-size: 72px;
     line-height: 1.2;
-    text-align: center;
     color: #FFFDFD;
-    padding-top: 283px;
+    margin-bottom: 0;
 }
-@media screen and (max-width: 1024px) {
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1279px) {
     .cover__title {
-        padding-top: 233px;    
+        font-size: calc(100vw * (72 / 768));
+        width: calc(100vw * (656 / 768));
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .cover__title {
-        max-width: 656px;
-        padding-top: 153px;
+        font-size: calc(100vw * (72 / 768));
+        width: calc(100vw * (656 / 768));
     }
 }
 
-@media only screen and (min-device-width : 625px) and (max-device-width : 768px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
     .cover__title {
-        padding-top: 106px;
-        font-size: 52px;
-    }
-}
-
-@media only screen and (min-device-width : 425px) and (max-device-width : 624px) {
-    .cover__title {
-        padding-top: 71px;
-        font-size: 42px;
-    }
-}
-
-@media screen and (max-width: 424px) {
-    .cover__title {
-        padding-top: 51px;
-        font-size: 32px;
+        font-size: calc(100vw * (32 / 320));
+        width: calc(100vw * (288 / 320));
     }
 }

@@ -3,7 +3,7 @@
 @import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
-@import url(./__list/intro__list-accent.css);
+@import url(./__list-accent/intro__list-accent.css);
 
 .intro {
     max-width: 690px;
@@ -13,10 +13,27 @@
     margin: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-device-width : 1279px) {
     .intro {
-        padding-right: 286px;
+        width: calc(100vw * (690 / 1024));
+        padding-right: calc(100vw * (286 / 690));
+        padding-left: calc(100vw * (80 / 690));
+    }
+}
+
+@media only screen and (max-device-width : 1024px) {
+    .intro {
+        width: calc(100vw * (690 / 1024));
+        padding-right: calc(100vw * (286 / 690));
         padding-left: 48px;
+    }
+}
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 1023px) {
+    .intro {
+        width: calc(100vw * (690 / 1023));
+        padding-right: calc(100vw * (286 / 690));
+        padding-left: calc(100vw * (90 / 690));
     }
 }
 
@@ -28,9 +45,9 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .intro {
-        padding-top: 64px;
+        padding-top: 30px;
         padding-right: 16px;
         padding-left: 16px;
     }

@@ -13,18 +13,16 @@
     <!-- header block -->
     <header class="header">
         <img class="header__logo" src="./images/logo.svg" alt="Logo">
-        <nav class="header__links">
-            <ul class="header__list">
+        <ul class="header__lang-list">
                 <li><a class="header__link header__link_active link" target="_blank" href="#">En</a></li>
                 <li><a class="header__link link" target="_blank" href="#">Es</a></li>
             </ul>
-        </nav>
     </header>
     <main class="content">
         <!-- lead block -->
         <section class="lead">
-            <h1 class="lead__title">From Portland to Portland</h1>
-            <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
+            <h1 class="lead__title">From&nbsp;Portland<span class="line-break"> to Portland</span></h1>
+            <p class="lead__subtitle">An epic bicycle journey<span class="line-break"> from Portland, ME. to Portland, OR</span></p>
             <img class="lead__image" src="./images/lead-mountains.jpg" alt="Mountains">
             <p class="lead__caption">Your journey starts here</p>
         </section>
@@ -41,8 +39,8 @@
             </ul>
         </section>   
         <!-- photo-grid block --> 
-        <section class="photo-grid__container">
-            <ul class="photo-grid">
+        <section class="photo-grid">
+            <ul class="photo-grid__container">
                 <li class="photo-grid__item"><img class="photo-grid__pic" src="./images/photo-grid-road.jpg" alt="Road"></li>
                 <li class="photo-grid__item"><img class="photo-grid__pic" src="./images/photo-grid-wires.jpg" alt="Wires"></li>
                 <li class="photo-grid__item"><img class="photo-grid__pic" src="./images/photo-grid-oasis.jpg" alt="Oasis"></li>
@@ -125,10 +123,11 @@
             </ul>
         </section>
         <!--cover block -->
-        <section class="cover link">  
-            <h2 class="cover__title">Historic Route 66</h2>
-            <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
-            <img class="cover__background" src="./images/background.jpg" alt="Background">   
+        <section class="cover">  
+            <a class="cover__background link" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
+                <h2 class="cover__title">Historic Route 66</h2>
+                <p class="cover__subtitle">The Main Street of America<span class="line-break">from Santa Monica, Cal. to Chicago, Ill. within an iframe<span></p>
+            </a>
         </section>
     </main>
     <!-- footer block -->

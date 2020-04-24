@@ -4,15 +4,21 @@
     height: 460px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-device-width : 1024px) and (max-device-width : 1279px) {
     .place__image {
-        height: 440px;
-        width: 440px;        
+        width: 440px;
+        height: 400px;     
     }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
-    
+@media only screen and (min-device-width: 900px) and (max-device-width : 1023px) {
+    .place__image {
+        width: 440px;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width : 899px) {
     .place__image {
         width: 340px;
         height: 340px;
