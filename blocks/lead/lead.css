@@ -3,66 +3,29 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
-
 .lead {
+    display: flex;
+    flex-direction: column;
     max-width: 984px;
-    max-height: 1005px;
-    padding-top: 58px;
-    padding-right: 114px;
-    padding-left: 114px;
-    margin: auto;
+    margin: 58px auto 0;
 }
 
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1279px) {
+@media screen and (min-device-width: 1024px) and  (max-device-width: 1279px) {
     .lead{
-        padding-top: 50px;
-        padding-right: 48px;
-        padding-left: 48px;
+        margin: 50px auto 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        padding: 50px 0;
+        max-width: 768px;
+        margin: 50px auto 0;
     }
 }
 
 @media screen and (max-width: 425px) {
     .lead {
-        padding-top: 50px;
+        max-width: 320px;
+        margin: 50px auto 0;
     }
 }
-/*
-.lead {
-    max-width: 984px;
-    padding: 58px 148px 0 148px;
-    margin: auto;
-    border: 1px solid blue;
-}
-
-@media only screen and (min-device-width : 769px) and (max-device-width : 1023px) {
-    .lead {
-        margin: auto;
-        padding: 50px 48px 0 48px
-    }
-}
-
-@media only screen and (min-device-width : 769px) and (max-device-width : 1023px) {
-    .lead {
-        margin: auto;
-        padding: 50px 48px 0 48px
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .lead {
-        padding: 50px 0 0;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .lead {
-        padding-top: 50px;
-    }
-}
-

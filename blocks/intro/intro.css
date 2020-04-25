@@ -6,49 +6,52 @@
 @import url(./__list-accent/intro__list-accent.css);
 
 .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     max-width: 690px;
-    padding-top: 92px;
-    padding-right: 442px;
-    padding-left: 148px;
-    margin: auto;
+    margin: 92px 442px 0 148px ;
+    padding: 0;
 }
 
-@media only screen and (max-device-width : 1279px) {
+/* centered after 1290px to stay consistent with in between 
+resolutions */
+
+@media only screen and (min-device-width: 1290px) {
     .intro {
-        width: calc(100vw * (690 / 1024));
-        padding-right: calc(100vw * (286 / 690));
-        padding-left: calc(100vw * (80 / 690));
+        margin: 92px auto 0 auto;
     }
 }
 
-@media only screen and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 1023px) and (max-device-width: 1279px) {
     .intro {
-        width: calc(100vw * (690 / 1024));
-        padding-right: calc(100vw * (286 / 690));
-        padding-left: 48px;
+        margin: 92px auto 0 auto ;
     }
 }
 
-@media only screen and (min-device-width : 769px) and (max-device-width : 1023px) {
-    .intro {
-        width: calc(100vw * (690 / 1023));
-        padding-right: calc(100vw * (286 / 690));
-        padding-left: calc(100vw * (90 / 690));
+@media screen and (max-device-width: 1024px) {
+    .intro{
+        margin-bottom: 0;
+        margin-right: 286px;
+        margin-left: 48px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 1023px) {
     .intro {
-        padding-top: 88px;
-        padding-right: 24px;
-        padding-left: 24px;
+        margin: 88px auto 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        padding-top: 30px;
-        padding-right: 16px;
-        padding-left: 16px;
+        max-width: 720px;
+        margin: 88px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        margin: 64px 16px 0 16px;
     }
 }
