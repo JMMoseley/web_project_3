@@ -1,12 +1,10 @@
 /* __subtitle */
 .intro__subtitle {
     max-width: 690px;
-    margin: 40px auto 0;
     font-size: 24px;
     line-height: 1.5;
     color: #FFFFFF;
 }
-
 
 @media screen and (max-width: 768px) {
     .intro__subtitle {
@@ -19,6 +17,5 @@
         max-width: 288px;
         font-size: 24px;
         line-height: 1.2;
-        margin-left: 0;
     }
 }

@@ -6,52 +6,41 @@
 @import url(./__list-accent/intro__list-accent.css);
 
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+    padding: 92px 442px 92px 148px;
     max-width: 690px;
-    margin: 92px 442px 0 148px ;
-    padding: 0;
+    margin: 0;
 }
-
-/* centered after 1290px to stay consistent with in between 
-resolutions */
 
 @media only screen and (min-device-width: 1290px) {
     .intro {
-        margin: 92px auto 0 auto;
+        margin: auto;
     }
 }
 
-@media only screen and (min-device-width: 1023px) and (max-device-width: 1279px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
     .intro {
-        margin: 92px auto 0 auto ;
+        margin: auto;
+        padding-right: 286px;
+        padding-left: 48px;
     }
 }
 
-@media screen and (max-device-width: 1024px) {
-    .intro{
-        margin-bottom: 0;
-        margin-right: 286px;
-        margin-left: 48px;
-    }
-}
-
-@media only screen and (min-device-width: 769px) and (max-device-width: 1023px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .intro {
-        margin: 88px auto 0;
+        margin: auto;
+        padding: 88px 24px 0 24px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 767px) {
     .intro {
-        max-width: 720px;
-        margin: 88px 24px 0 24px;
+        margin: auto;
+        padding: 88px 24px 0 24px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 374px) {
     .intro {
-        margin: 64px 16px 0 16px;
+        padding: 64px 16px 0 16px;
     }
 }
