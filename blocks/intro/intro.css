@@ -6,7 +6,7 @@
 @import url(./__list-accent/intro__list-accent.css);
 
 .intro {
-    padding: 92px 442px 92px 148px;
+    padding: 92px 442px 0 148px;
     max-width: 690px;
     margin: 0;
 }
