@@ -13,6 +13,14 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .intro__title {
+        max-width: 100%;
+        font-size: calc(100vw * (54 / 767));
+        line-height: 1;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .intro__title {
         max-width: 100%;
