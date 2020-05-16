@@ -42,4 +42,4 @@ The design has 5 different screen resolutions:
 
 This project was made according to layout in [Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
 
-:link: *Demo Link:* [Project 3](https://jmmoseley.github.io/web_project_3/)
+:link: **Demo Link:** [Project 3](https://jmmoseley.github.io/web_project_3/)
