@@ -1,6 +1,8 @@
-![](/images/logo.png)
+<p align="center">
+  <img src="/images/logo.png">
+</p>
 
-# A Practicum by Yandex Bootcamp Project
+## Practicum by Yandex Bootcamp Project
 
 ## Sprint 4 Project: From Portland to Portland
 
