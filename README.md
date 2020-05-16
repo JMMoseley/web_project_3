@@ -1,15 +1,16 @@
 ![](/images/logo.png)
 
-#A Practicum by Yandex Bootcamp Project
+# A Practicum by Yandex Bootcamp Project
 
-#Sprint 4 Project: From Portland to Portland
+## Sprint 4 Project: From Portland to Portland##
 
 
-:link:Overview
+:link: Overview
+
 This is a responsive static page about traveling across the US, from Portland to Portland. 
 
 
-:link:Technologies used:
+:link: Technologies used:
 * HTML5
 * CSS3 
 * Figma
@@ -26,4 +27,4 @@ The design has 5 different screen resolutions:
 *	Up to 425px (mobile devices).
 *	Up to 425px (mobile devices).
 
-:link:Demo Link: [Project 3](https://jmmoseley.github.io/web_project_3/)
+:link: Demo Link: [Project 3](https://jmmoseley.github.io/web_project_3/)
