@@ -2,7 +2,6 @@
 
 # A Practicum by Yandex Bootcamp Project
 
-:link: 
 ## Sprint 4 Project: From Portland to Portland
 
 
@@ -14,12 +13,12 @@
 * Figma
 * Demo link
 
-***Description:**
+**Description**
 
 This is a responsive static page about traveling across the US, from Portland to Portland. 
 
 
-**Technologies:**
+**Technologies**
 
 * HTML5
 * CSS3 
@@ -39,7 +38,7 @@ The design has 5 different screen resolutions:
 *	Up to 425px (mobile devices).
 *	Up to 425px (mobile devices).
 
-**Figma:** 
+**Figma** 
 
 This project was made according to layout in [Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
 
