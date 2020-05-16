@@ -1,4 +1,5 @@
-![image](https://drive.google.com/file/d/18WuV0u9EWW0x98_7mStJ5TxdFlzM3J_k/view?usp=sharing)
+![](/images/logo.png)
+
  A Practicum by Yandex Bootcamp Project
 
 Sprint 4 Project: From Portland to Portland
