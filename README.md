@@ -1,11 +1,11 @@
 ![image](https://drive.google.com/file/d/18WuV0u9EWW0x98_7mStJ5TxdFlzM3J_k/view?usp=sharing)
-**A Practicum by Yandex Bootcamp Project
+ A Practicum by Yandex Bootcamp Project
 
-**Sprint 4 Project: From Portland to Portland
+Sprint 4 Project: From Portland to Portland
 
 This is a responsive static page about traveling across the US, from Portland to Portland. 
 
-:link:[Demo](https://jmmoseley.github.io/web_project_3/)
+:link:Demo Link: [Project 3](https://jmmoseley.github.io/web_project_3/)
 
 Technologies used:
 * HTML5
