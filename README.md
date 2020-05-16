@@ -38,7 +38,6 @@ The design has 5 different screen resolutions:
 *	From 768px to 1024px (from a tablet in portrait to a tablet in landscape).
 *	From 425px to 768px (from a large smartphone to a tablet in portrait).
 *	Up to 425px (mobile devices).
-*	Up to 425px (mobile devices).
 
 **Figma** 
 
