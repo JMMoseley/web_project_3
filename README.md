@@ -5,7 +5,7 @@
 ## Sprint 4 Project: From Portland to Portland
 
 
-:link:Overview
+### Overview
 
 * Description
 * Technologies
