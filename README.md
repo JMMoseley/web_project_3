@@ -1,23 +1,26 @@
-Project 3: From Portland to Portland
+![](/images/logo.png)
 
+#A Practicum by Yandex Bootcamp Project
 
-This is a project is a page about traveling across the US, from Portland to Portland. 
+#Sprint 4 Project: From Portland to Portland
 
-Link to project: [Project 3](https://jmmoseley.github.io/web_project_3/)
+:link:Overview
+This is a responsive static page about traveling across the US, from Portland to Portland. 
 
-Technologies used:
-* HTML & CSS
+:link:Demo Link: [Project 3](https://jmmoseley.github.io/web_project_3/)
+
+:link:Technologies used:
+* HTML5
+* CSS3 
 * Figma
 * BEM Methodology
-* Flexbox and Grid layouts
+* Flexbox & Grid Layouts
+* Media Queries
 * Transitions
 
 The design has 5 different screen resolutions:
-•	1280px and higher (standard laptops and beyond).
-•	From 1024px to 1280px (from a tablet in landscape to a standard laptop).
-•	From 768px to 1024px (from a tablet in portrait to a tablet in landscape).
-•	From 425px to 768px (from a large smartphone to a tablet in portrait).
-•	Up to 425px (mobile devices).
-
-
-Author: Johanna Moseley
+*	1280px and higher (standard laptops and beyond).
+*	From 1024px to 1280px (from a tablet in landscape to a standard laptop).
+*	From 768px to 1024px (from a tablet in portrait to a tablet in landscape).
+*	From 425px to 768px (from a large smartphone to a tablet in portrait).
+*	Up to 425px (mobile devices).
