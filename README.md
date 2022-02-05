@@ -2,7 +2,7 @@
   <img src="/images/logo.png">
 </p>
 
-## Practicum by Yandex Bootcamp Project
+## Practicum by Yandex Project
 
 ## Sprint 4 Project: From Portland to Portland
 
